@@ -1,5 +1,7 @@
-package main.java.com.bank.domain;
+package com.bank.domain;
 
-public class BankElement {
-    
+import com.bank.visitor.BankVisitor;
+
+public interface BankElement {
+    <R> R accept(BankVisitor<R> visitor);
 }
