@@ -1,11 +1,6 @@
 package com.bank.visitor;
-import com.bank.domain.*;
 
-import main.java.com.bank.domain.Account;
-import main.java.com.bank.domain.Bank;
-import main.java.com.bank.domain.Branch;
-import main.java.com.bank.domain.Deposit;
-import main.java.com.bank.domain.Loan;
+import com.bank.domain.*;
 
 public interface BankVisitor<R> {
     R visit(Bank bank);
