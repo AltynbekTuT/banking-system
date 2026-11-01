@@ -1,5 +1,8 @@
-package main.java.com.bank.observer;
+package com.bank.observer;
 
-public class EventType {
-    
+public enum EventType {
+    TRANSACTION_CREATED,
+    FRAUD_SUSPECTED,
+    HIGH_RISK_DETECTED,
+    SYSTEM_ALERT
 }

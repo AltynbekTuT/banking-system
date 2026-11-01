@@ -1,5 +1,5 @@
-package main.java.com.bank.observer;
+package com.bank.observer;
 
-public class Observer {
-    
+public interface Observer {
+    void onEvent(Event event);
 }
